@@ -2,7 +2,7 @@
 
 Kiessa Legacie 6:00PM
 # Challenge 2- Interactive Portfolio
-> Lets take a Web Development Quiz!
+> Interactive Portfolio
 ---
 ### Table of Contents
 - [Description](#description)
