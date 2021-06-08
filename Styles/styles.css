@@ -8,14 +8,23 @@ body {
     background-color: #FFE5D4;
     margin: 0px;
     padding: 0px;
+   
 }
-/* logo styling */
-
-.logo {
+/* styling for flower picture */
+header {
+    margin: 30px;
+    padding: 200px;
+    width: auto;
+    height: auto;
     background-image: url(../images/Flowers.JPG);
-    opacity: 75%;
-    border-radius: 75%;
     background-size: cover;
+    border-radius: 38%;
+    background-position: center;
+    opacity: 80%;
+
+}
+.button .nav-toggle {
+    display: inline-block;
 }
 
 section {
@@ -26,7 +35,20 @@ section {
    background-size: contain;
    flex: c;
 }
+
 /* Mid porfolio styling */
+.nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+.nav ul li a {
+    justify-content: space-between;
+    color: #273C2C;
+    background-color: #FFE5D4;
+    background-size:auto
+    
+
+}
 
 .intro {
     background-image: url(../images/Marble.JPG);
