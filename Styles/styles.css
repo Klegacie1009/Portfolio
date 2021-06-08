@@ -12,13 +12,13 @@ body {
 }
 /* styling for flower picture */
 header {
-    margin: 30px;
-    padding: 200px;
+    margin: 300px;
+    padding: 275px;
     width: auto;
     height: auto;
     background-image: url(../images/Flowers.JPG);
     background-size: cover;
-    border-radius: 38%;
+    border-radius: 25%;
     background-position: center;
     opacity: 80%;
 
@@ -33,11 +33,13 @@ section {
     background-image: url("../images/Marble.JPG");
    background-repeat: no-repeat;
    background-size: contain;
-   flex: c;
+   flex: auto;
 }
 
 /* Mid porfolio styling */
-.nav ul li {
+
+
+nav ul li {
     display: inline-block;
     text-align: center;
 }
@@ -45,23 +47,48 @@ section {
     justify-content: space-between;
     color: #273C2C;
     background-color: #FFE5D4;
-    background-size:auto
-    
-
-}
+    background-size: contain;
+    display: inline-block;
+    font-size: 15px;
+    }
 
 .intro {
     background-image: url(../images/Marble.JPG);
     background-size: cover;
 }
 .my-service {
-    background-image: url(../images/Marble.JPG);
+    margin: 200px;
+    padding: 200px;
+    height: auto;
+    width: auto;
     background-size: cover;
+    justify-content: left;
+}
+div.services {
+    border: 8px solid;
+    padding: 36px; 
+    width: 750px;
+    resize: vertical;
+    overflow: auto;
+    text-align: left;
+    align-items: center;
+
+  }
+.services {
+    justify-content: left;
+}
+div.service {
+        border: 8px solid;
+        padding: 36px; 
+        width: 800px;
+        resize: both;
+        overflow: auto;
 }
 .about-me {
     background-image: url(../images/Marble.JPG);
     background-size: cover;
 }
+
 .my-work {
     background-image: url(../images/Marble.JPG);
     background-size: cover;
