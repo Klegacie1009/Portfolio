@@ -50,9 +50,6 @@ section {
     background-size: contain;
     display: inline-block;
     font-size: 15px;
-    }
-.p {
-    text-align: justify;
 }
 .intro {
     background-image: url(../images/Marble.JPG);
@@ -68,11 +65,11 @@ section {
 }
 div.services {
     border: 8px solid;
-    padding: 36px; 
-    width: 750px;
-    resize: vertical;
+    padding: 0; 
+    width: 1000px;
+    resize: both;
     overflow: auto;
-    text-align: left;
+    text-align: center;
     align-items: center;
 
   }
@@ -80,11 +77,11 @@ div.services {
         justify-content: auto;
 }
 div.service {
-        border: 8px solid;
-        padding: 36px; 
-        width: 750px;
+        padding: 0px; 
+        width: 400px;
         resize: both;
         overflow: auto;
+        display: inline-block;
 }
 .about-me {
     background-image: url(../images/Marble.JPG);
@@ -93,7 +90,7 @@ div.service {
 
 .my-work {
     background-image: url(../images/Marble.JPG);
-    background-size: auto;
+    background-size: cover;
 }
 
 
@@ -107,9 +104,9 @@ h1 {
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
-    text-align: left;
-    text-decoration: none;
+    font-size: 38px;
+    text-align: justify;
+    text-decoration: underline;
     word-spacing: normal;
 }
 h3 {
@@ -119,12 +116,15 @@ h3 {
     text-decoration: none;
     word-spacing: normal;
 }
+
+
 footer {
     margin-left: auto;
     background-color: #FFE5D4;
+    background-size: auto;
     font-size: 35px;
-    color: white;
-
+    color:white;
 }
+
 
 
