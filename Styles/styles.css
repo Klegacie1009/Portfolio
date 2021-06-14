@@ -39,7 +39,7 @@ section {
 /* Mid porfolio styling */
 
 
-nav ul li {
+.nav ul li {
     display: inline-block;
     text-align: center;
 }
@@ -51,10 +51,12 @@ nav ul li {
     display: inline-block;
     font-size: 15px;
     }
-
+.p {
+    text-align: justify;
+}
 .intro {
     background-image: url(../images/Marble.JPG);
-    background-size: cover;
+    background-size: auto;
 }
 .my-service {
     margin: 200px;
@@ -75,23 +77,23 @@ div.services {
 
   }
 .services {
-    justify-content: left;
+        justify-content: auto;
 }
 div.service {
         border: 8px solid;
         padding: 36px; 
-        width: 800px;
+        width: 750px;
         resize: both;
         overflow: auto;
 }
 .about-me {
     background-image: url(../images/Marble.JPG);
-    background-size: cover;
+    background-size: auto;
 }
 
 .my-work {
     background-image: url(../images/Marble.JPG);
-    background-size: cover;
+    background-size: auto;
 }
 
 
@@ -116,6 +118,13 @@ h3 {
     text-align: left;
     text-decoration: none;
     word-spacing: normal;
+}
+footer {
+    margin-left: auto;
+    background-color: #FFE5D4;
+    font-size: 35px;
+    color: white;
+
 }
 
 
