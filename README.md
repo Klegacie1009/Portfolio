@@ -46,9 +46,9 @@ The design aspect is proabably my favorite part of the process. I found another 
 
 ## Resources 
 
-<a href="">GitHub Repo</a>
+<a href="https://klegacie1009.github.io/Portfolio/">GitHub Repo</a>
 
-<a href="https://www.youtube.com/results?search_query=css+stylesheet+tutorial"> YouTube</a>
+<a href="https://www.youtube.com/results?search_query=css+stylesheet+tutorial">YouTube</a>
 
 <a href="https://www.w3schools.com/css/css_intro.asp">w3 Schools</a>
 
